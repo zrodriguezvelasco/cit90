@@ -1,0 +1,24 @@
+html, body, h1 {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+
+
+#something {
+    height: 100vh;
+    background-image: url("/assets/img/infinity-war.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+h1 {
+    color: yellow;
+    font-size: 50px;
+}
